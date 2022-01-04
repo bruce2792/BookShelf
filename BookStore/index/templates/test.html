@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)http://www.bondaaa.com/ -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+    <link rel="stylesheet" href="/static/bootstrap.css">
+    <script src="/static/jquery.min.js"></script>
+    <script src="/static/bootstrap.js"></script>
+    <link href="/static/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+    <script src="/static/jquery.cookie.min.js"></script>
+    <script src="/static/moment-with-locales.min.js"></script>
+    <script src="/static/bootstrap-datetimepicker.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="http://www.bondaaa.com/static/image/logo.ico">
+
+    <style type="text/css">
+        .nav-logo {
+            float: left;
+            height: 40px;
+<!--        margin-top: 5px;-->
+            overflow: hidden;
+        }
+
+        .nav-logo a {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo_text {
+            float: left;
+            line-height: 15px;
+            font-size: 14px;
+            margin-left: 6px;
+            color: white;
+        }
+
+        li a {
+            color: #eeeeee;
+        }
+
+        .main_main {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        .content_main {
+            flex-grow: 1; /* 1代表最大 */
+        }
+
+        footer {
+            background-color: #eeeeee;
+            text-align: center;
+            min-height: 50px;
+            line-height: 50px
+        }
+
+
+
+
+    </style>
+</head>
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false"
+      onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false">
+
+<!--导航-->
+<div class="navbar navbar-fixed-top navbar-inverse" style="background-color: rgb(28, 80, 225);border-bottom: none">
+    <div class="container">
+        <div class="nav-logo">
+            <a class="row" href="javascript:void(0);location.reload();">
+                <img class="img-responsive" src="/static/logo.png" style="height: 100%;width: auto;float: left">
+                <div class="logo_text">
+                    <p>PISTA基金管理系统</p>
+                </div>
+
+
+            </a>
+        </div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="navBar">
+            <ul class="nav navbar-nav">
+                <li><a href="http://www.bondaaa.com/" style="color: white">首页</a></li>
+                <li><a href="http://www.bondaaa.com/price" style="color: white">借贷价格查询</a></li>
+                <li><a href="http://www.bondaaa.com/investor" style="color: white">机构借贷统计</a></li>
+                <li><a href="http://www.bondaaa.com/day/show" style="color: white">借贷市场每日成交概览</a></li>
+                <li><a href="http://www.bondaaa.com/help" style="color: white">项目概述</a></li>
+                <li>
+                    <button type="button"
+                            style="border: 1px solid white; border-radius: 20px; margin: 8px auto; font-size: 10px; color: white; background-color: rgb(89, 153, 247); display: block;"
+                            class="btn btn-default btn-sm login_btn" data-toggle="modal" data-target="#myModal">
+                        <span class="glyphicon glyphicon-user" style="color: white"></span> 登录
+                    </button>
+
+
+                    <div style="border: 1px solid white;border-radius: 20px;margin: 8px auto;font-size: 10px;color: white;background-color: #5999F7;display: none"
+                         class="btn btn-default btn-sm current_user">
+                        <span class="glyphicon glyphicon-user" style="color: white" id="dropdownMenu1"
+                              data-toggle="dropdown"></span> <span class="username_info" id="dropdownMenu1"
+                                                                   data-toggle="dropdown">test</span>
+
+
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="http://www.bondaaa.com/#"
+                                   class="logout_out">退出</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
